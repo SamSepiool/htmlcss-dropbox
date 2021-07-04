@@ -18,11 +18,16 @@ body{
     color: #ffffff;
 }
     
-
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+/*typo */
+h1{
+    font-size: 8vh;
+    margin-bottom: 65px;
 }
 
 /* header */
@@ -45,7 +50,6 @@ header{
     height: 10vh;
     display: inline-block;
     line-height: 10vh; 
-    border: 1px solid red; 
     padding: 0px 15px;
 }
 
@@ -72,7 +76,45 @@ header a{
 }
 
 /* main */
-/* .hero{
+.hero{
     background-color: #b4d0e7;
-    height: 1500px;
-} */
+    margin-top: 10vh ;
+    height: 585px;
+    margin-bottom: -100px;
+    
+ }
+
+ .box-l{
+     text-align: left;
+     width: 80%;
+     margin: auto;
+ }
+
+ .hero-left, .hero-right{
+    max-width: 450px;
+    display: inline-block;
+ }
+
+.hero-left > p{
+     width: 380px;
+     font-weight: 300;
+ }
+
+ .hero-left .btn{
+     margin-top: 30px;
+     margin-bottom:15px
+ }
+
+.hero-right{
+     float: right;
+     margin-right: 300px;
+     
+     
+ }
+
+ .hero-right img{
+    width: 730px;
+ }
+
+
+ 
