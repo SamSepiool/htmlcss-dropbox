@@ -134,8 +134,8 @@ header a{
     width: 90%;
     margin: auto;
     margin-top: 200px;
-    /* text-align: center; */
     padding: 15px 0px;
+    border: 1px solid red;
     
 }
  .billing{
@@ -265,4 +265,25 @@ margin-bottom: 35px;
     border: 1px solid black
 }
 
+/* operation */
+.operation-col{
+    border: 1px solid red;
+  
+    width: calc(100% / 3);
+    /* display: inline-block; */
+    float: left;
+}
 
+.operation-row{
+    border: 1px solid red;
+}
+
+.operation-imgs{
+    width: 100%;
+}
+
+.operation-info h3{
+    margin-bottom: 35px;
+    font-size: x-large;
+
+}
