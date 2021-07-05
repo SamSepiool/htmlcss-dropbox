@@ -41,6 +41,12 @@ h2{
     font-size: 4vh;
 }
 
+.enterprise-left span:nth-child(2){
+    font-weight:bold;
+    display: inline-block;
+    margin: 15px 0px;
+}
+
 /* header */
 header{  
     height: 10vh;
@@ -130,7 +136,7 @@ header a{
     margin-top: 200px;
     text-align: center;
     padding: 15px 0px;
-    border: 1px solid red;
+    
 }
  .billing{
 margin-top: 75px;
@@ -146,8 +152,9 @@ margin-bottom: 35px;
     text-align: center;
 }
 
-.col-head p{
+.col-head span{
     padding: 15px 0px;
+    display: block;
 }
 
 .sta{
@@ -156,7 +163,7 @@ margin-bottom: 35px;
 
 .text-left{
     text-align: left;
-    border: 1px solid red;
+    
 }
 
 
@@ -204,20 +211,29 @@ margin-bottom: 35px;
 
 }
 
+.enterprise{
+    border: 1px solid #d0d0d3;
+}
+
 .enterprise-left{
     width: 60%;
-    display: inline-block
-
+    display: inline-block;
+    padding:35px 25px;
 }
 
 .enterprise-right{
     width: 40%;
-    border: 1px solid red;
+    padding:35px 25px;
+    float:right;
 }
 
-.float-right{
-    float: right;
-    
+
+.enterprise-left p:nth-child(3){
+    font-size: small;
+}
+
+.enterprise-right .btn{
+    padding: 10px 100px
 }
 
 
