@@ -12,7 +12,7 @@ body{
 
 .mainbox{
     /* text-align: left; */
-    border: 1px solid red;
+    border: 1px solid black;
     width: 80%;
     margin: auto;
 }
@@ -128,37 +128,77 @@ header a{
     width: 90%;
     margin: auto;
     margin-top: 200px;
-    border: 1px solid red;
     text-align: center;
     padding: 15px 0px;
-    /* height: 500px; */
 }
- 
-.piano-col input,
-.piano-col span{
+ .billing{
 margin-top: 75px;
 margin-bottom: 35px;
 }
 
-.pro,
-.sta,
-.adv{
+/* colonne */
+.col{
     width: calc(100% / 3 - 20px);
     min-height: 1000px; 
-    border: 1px solid red;
+    border: 1px solid #d0d0d3;
     float: left;
     text-align: center;
 }
 
+.col-head p{
+    padding: 15px 0px;
+}
+
 .sta{
-     margin: 0px 30px;
-     
+     margin: 0px 30px; 
 } 
 
-.pro{
-    margin-left: ;
-}
-/* colonne */
-.find{
+
+.text-left{
     text-align: left;
+    margin-top: 40px;
+    padding-left: 30px;
 }
+
+.text-left .ul-1 li:nth-child(2),
+.text-left .ul-1 li:nth-child(5){
+    padding: 15px 0px;
+}
+
+.text-left .ul-1 li:nth-child(3){
+    margin-bottom: 50px;
+}
+
+.text-left ul li{
+    list-style-type: none;
+}
+
+.col-btn{
+    padding: 10px 50px;
+   
+}
+
+.free-trial{
+    margin: 30px 30px;
+  
+}
+
+.free-trial span{
+    display: inline-block;
+    padding: 30px 0px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.free-trial a{
+    padding: 30px 100px 0px 0px;
+}
+
+.ul-2 li{
+    padding: 15px 0px;
+
+}
+
+
+
+
+
