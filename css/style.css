@@ -134,7 +134,7 @@ header a{
     width: 90%;
     margin: auto;
     margin-top: 200px;
-    text-align: center;
+    /* text-align: center; */
     padding: 15px 0px;
     
 }
@@ -236,7 +236,33 @@ margin-bottom: 35px;
     padding: 10px 100px
 }
 
+/* partner */
+.partner-left img{
+    width: 100%;
+}
 
+.partner-left{
+    display: inline-block;
+}
 
+.partner-left,
+.partner-right{
+    width: calc(100% / 2 - 50px);
+}
+
+.partner-right{
+    float: right;
+    margin: 50px 50px;
+}
+
+.partner-right p{
+    margin: 40px 0px;
+}
+
+.btn-none{
+    background-color: inherit;
+    color: inherit;
+    border: 1px solid black
+}
 
 
