@@ -47,6 +47,14 @@ h2{
     margin: 15px 0px;
 }
 
+
+.end-left h2{
+    font-size: 3em;
+}
+
+.faqs li h3{
+    font-size: 2em;
+}
 /* header */
 header{  
     height: 10vh;
@@ -135,7 +143,6 @@ header a{
     margin: auto;
     margin-top: 200px;
     padding: 15px 0px;
-    border: 1px solid red;
     
 }
  .billing{
@@ -267,15 +274,8 @@ margin-bottom: 35px;
 
 /* operation */
 .operation-col{
-    border: 1px solid red;
-  
     width: calc(100% / 3);
-    /* display: inline-block; */
     float: left;
-}
-
-.operation-row{
-    border: 1px solid red;
 }
 
 .operation-imgs{
@@ -287,3 +287,93 @@ margin-bottom: 35px;
     font-size: x-large;
 
 }
+
+/* Dropbox Business */
+.drop-business span{
+    margin: 50px 0px;
+    display: block;
+}
+
+.square-col{
+    height: 500px;
+    float: left;
+}
+
+.center{
+    width: 40%;
+    border: 1px solid blue;
+}
+
+.left,
+.right{
+    width: 30%;
+    border: 1px solid green;
+}
+
+.square-row{
+    border: 1px solid violet;
+    height: 50%;
+}
+
+.squares{
+    height: 500px;
+
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+    float: left;
+    
+}
+
+.green{
+    background-color: #a2d39b;
+}
+
+
+.squares-footer{
+    background-color: #b4d0e7;
+}
+
+
+
+.end-right{
+    text-align: right;
+}
+
+.end-left,
+.end-right{
+    width: 50%;
+    float: left;
+    margin-bottom: 200px;
+}
+
+/* FAQs */
+.faqs{
+    height: 1000px;
+}
+
+
+.faqs ul li{
+    list-style: none;
+    padding: 40px 0px;
+    font-weight: bold;
+    /* border-top: 1px solid black; */
+}
+
+.faqs ul li:nth-child(even){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.faqs ul li:last-of-type{
+    border-bottom: 1px solid black;
+}
+
+.faqs .mainbox .piano-col{
+    padding-bottom: 100px;
+ 
+}
+
+
